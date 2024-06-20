@@ -1,0 +1,10 @@
+{
+    "name": "Control chrome tabs",
+    "description": "Control chrome tabs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["contextMenus"],
+    "background": {
+        "service_worker": "event.js"
+    }
+}

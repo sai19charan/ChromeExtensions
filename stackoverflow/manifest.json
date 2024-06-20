@@ -1,0 +1,13 @@
+{
+    "name":"Copy code Stack overflow",
+    "description":"Adds copy button to code snippets in stack overflow",
+    "manifest_version":2,
+    "version":"0.1",
+    "content_scripts":[
+      {
+       "matches":["*://*.stackoverflow.com/*"],
+       "js":["main.js"]
+      }
+    ]
+  }
+  

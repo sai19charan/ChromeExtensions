@@ -1,0 +1,14 @@
+{
+    "name": "Wiki Seearch",
+    "description": "searching Wikipedia",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus"
+    ],
+    
+    "background": {
+        "service_worker": "background.js"
+    }
+   
+}
